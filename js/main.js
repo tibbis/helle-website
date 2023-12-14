@@ -100,6 +100,7 @@ $(document).ready(function() {
       responsiveClass: true,
       responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 4 } }
     });
+
   // SEO fix
 $('.owl-dot').attr('aria-hidden', 'true');
 
@@ -157,4 +158,4 @@ $('.owl-dot').attr('aria-hidden', 'true');
 //     portfolioIsotope.isotope({ filter: $(this).data('filter') });
 //   });
 
-// })
+})
