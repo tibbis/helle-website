@@ -137,7 +137,7 @@ $(document).ready(function() {
 
 });
 // SEO fix
-$('.owl-dots').attr('aria-hidden', 'true');
+$('.owl-dot').attr('aria-hidden', 'true');
 
 // ========================================================================= //
 //  Porfolio isotope and filter
