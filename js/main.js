@@ -102,7 +102,7 @@ $(document).ready(function() {
     });
 
   // SEO fix
-// $('.owl-dot').attr('aria-hidden', 'true');
+$('.owl-dot').attr('aria-label', 'item');
 
 
   // ========================================================================= //
