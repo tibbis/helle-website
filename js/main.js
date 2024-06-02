@@ -85,6 +85,17 @@ $(document).ready(function() {
     });
   });
 
+  
+  var typed = $(".typed-boat");
+
+  $(function() {
+    typed.typed({
+      strings: ["With skipper.", "Without skipper"],
+      typeSpeed: 100,
+      loop: true,
+    });
+  });
+
 
   // ========================================================================= //
   //  Owl Carousel Services

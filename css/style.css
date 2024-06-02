@@ -101,15 +101,13 @@ p {
 }
 
 .btn {
-  background: #333;
   border: medium none;
   border-radius: 0;
-  color: #fff;
-  font-size: 12px;
   height: 50px;
   line-height: 50px;
   padding: 0 30px;
   text-transform: uppercase;
+  
 }
 
 .btn:hover, .btn:focus {
@@ -245,6 +243,12 @@ nav ul li a {
   width: 100%;
 }
 
+#header-boat {
+  background: url("../images/boat.webp") repeat scroll center center / cover;
+  height: 100vh;
+  width: 100%;
+}
+
 
 #header .header-content {
   height: 100vh;
@@ -306,6 +310,11 @@ nav ul li a {
   margin-left: 40px;
   height: 400px;
   object-fit: cover;
+}
+
+#obf {
+  color:orange;
+  text-decoration: orange;
 }
 
 #about .about-descr .p-heading {
