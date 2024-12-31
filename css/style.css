@@ -257,6 +257,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .header-content h1 {
@@ -265,26 +266,49 @@ nav ul li a {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 5px;
+  top: 30%;
+  position: relative;
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 5px;
+  top: 30%;
+  position: relative;
+  
+}
+
+.header-content .list-social{
+  top: 27%;
+  position: relative;
+  backdrop-filter: blur(20px);
+  width: min-content;
+  display: flex;
+  border-radius: 10px;
 }
 
 .header-content .list-social li {
   float: left;
   margin-right: 20px;
+
+
 }
 
 .header-content .list-social li i {
-  color: #fff;
+  color: #007bff;
   font-size: 15px;
+
 }
 
 /*-----------------------------------------------------------------------------------*/
