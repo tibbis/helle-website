@@ -258,57 +258,50 @@ nav ul li a {
   justify-content: center;
   flex-direction: column;
   
+  
 }
 
 .header-content h1 {
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
-  backdrop-filter: blur(20px);
-  border-radius: 10px;
-  padding: 5px;
-  top: 30%;
-  position: relative;
 }
 
 .header-content p {
   font-size: 20px;
-  letter-spacing: 5px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0;
   text-transform: capitalize;
   color: #fff;
-  font-weight: 600;
-  backdrop-filter: blur(20px);
-  border-radius: 10px;
-  padding: 5px;
-  top: 30%;
-  position: relative;
   
 }
 
 .header-content .list-social{
-  top: 27%;
-  position: relative;
-  backdrop-filter: blur(20px);
   width: min-content;
   display: flex;
-  border-radius: 10px;
+  margin-bottom: 0;
+
 }
 
 .header-content .list-social li {
   float: left;
-  margin-right: 20px;
+  margin-right: 10px;
 
 
 }
 
 .header-content .list-social li i {
   color: #007bff;
-  font-size: 15px;
+  font-size: 20px;
 
+}
+
+.title-content{
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 40vh;
+  width: fit-content;
 }
 
 /*-----------------------------------------------------------------------------------*/
