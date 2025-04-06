@@ -90,7 +90,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["With skipper.", "Without skipper"],
+      strings: ["With skipper.", "Flexible drop-off"],
       typeSpeed: 100,
       loop: true,
     });
